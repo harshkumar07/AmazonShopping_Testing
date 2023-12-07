@@ -1,4 +1,4 @@
-Amazon Shopping Selenium Test
+#Amazon Shopping Selenium Test
 Overview
 This repository contains Java code for automated testing of the Amazon Shopping website using Selenium WebDriver with the Chrome browser. The main code can be found in src/Main.java. The test script performs the following actions:
 
