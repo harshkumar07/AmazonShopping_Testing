@@ -1,50 +1,38 @@
-#Amazon Shopping Selenium Test
-Overview
-This repository contains Java code for automated testing of the Amazon Shopping website using Selenium WebDriver with the Chrome browser. The main code can be found in src/Main.java. The test script performs the following actions:
+# Amazon Shopping Selenium Test
 
-Opens the Chrome browser.
-Maximizes the browser window.
-Navigates to amazon.com.
-Searches for mobile phones.
-Applies a filter for products with 4 or more customer reviews.
-Sets a price range filter from $10,000 to $20,000.
-Selects the first mobile phone from the search results.
-Adds the selected mobile phone to the shopping cart.
-Goes to the cart window.
-Waits for 5 seconds.
-Quits the Chrome browser.
-Prerequisites
+## Project Overview
+
+This repository contains Java code for automated testing of the Amazon Shopping website using Selenium WebDriver with the Chrome browser. The main code can be found in `src/Main.java`. The test script performs a series of actions to simulate a user's interaction with the website.
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
+- [Running the Test](#running-the-test)
+- [Configuration](#configuration)
+- [Dependencies](#dependencies)
+- [Selenium WebDriver and ChromeDriver](#selenium-webdriver-and-chromedriver)
+- [Notes](#notes)
+- [License](#license)
+
+## Prerequisites
+
 Ensure you have the following software installed on your machine:
 
-Java Development Kit (JDK)
-Maven
-Chrome browser
-Selenium WebDriver
-ChromeDriver (Selenium WebDriver Chrome driver)
-Setup
-Clone the repository:
+- Java Development Kit (JDK)
+- Maven
+- Chrome browser
+- Selenium WebDriver
+- ChromeDriver (Selenium WebDriver Chrome driver)
 
-bash
-Copy code
-git clone https://github.com/harshkumar07/AmazonShopping_Testing.git
-Navigate to the project directory:
+## Setup
 
-bash
-Copy code
-cd AmazonShopping_Testing
-Build the project using Maven:
+1. **Clone the repository:**
 
-bash
-Copy code
-mvn clean install
-Running the Test
-Execute the test script:
-
-bash
-Copy code
-mvn test
+   ```bash
+   git clone https://github.com/harshkumar07/AmazonShopping_Testing.git
 Configuration
-You can customize the test parameters and configurations in src/test/resources/config.properties.
+Customize the test parameters and configurations in src/test/resources/config.properties.
 
 Dependencies
 The project uses the following dependencies:
