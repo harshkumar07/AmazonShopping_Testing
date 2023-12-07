@@ -31,17 +31,17 @@ Ensure you have the following software installed on your machine:
 
    ```bash
    git clone https://github.com/harshkumar07/AmazonShopping_Testing.git
-Configuration
+##Configuration
 Customize the test parameters and configurations in src/test/resources/config.properties.
 
-Dependencies
+##Dependencies
 The project uses the following dependencies:
 
 Selenium WebDriver
 TestNG
 These dependencies are managed by Maven and will be automatically downloaded during the build process.
 
-Selenium WebDriver and ChromeDriver
+##Selenium WebDriver and ChromeDriver
 Download the latest version of Selenium WebDriver and ChromeDriver. Update the paths to the WebDriver executables in src/test/resources/config.properties.
 
 Selenium WebDriver: Selenium WebDriver Downloads
@@ -53,5 +53,5 @@ The test script assumes a stable internet connection and the availability of the
 
 The waiting time for 5 seconds in the cart window is included to simulate user interaction. Adjust the waiting time as needed.
 
-License
+##License
 This project is licensed under the MIT License - see the LICENSE file for details.
